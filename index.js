@@ -1,23 +1,25 @@
-gsap.defaults({overwrite: "auto"});
+/*gsap.to("#logo", { alpha: 1, duration: 1, ease: "sine" });
+gsap.to("#logo", { delay: 1, rototion: 90, duration: 3 });*/
+
 var tl = gsap.timeline();
-
-//sequenced one-after-the-other
-tl.to(".box1", {duration: 2, x: 100}) //notice that there's no semicolon!
-  .to(".box2", {duration: 1, y: 200})
-  .to(".box3", {duration: 3, rotation: 360});
-
-//gsap.to(".box", {rotation: 27, x: 100, duration: 1});  
-
-To Animate:
-#introp
-#intro
-  #rallasblancas
-  #rallasnegras
-  #star
-  #logo
-    #fernandocomet_id
-      #logo
-      #left
-      #center
-      #right
-  #bg
+tl.to("#star", { alpha: 1, duration: 1 })
+  .to("#star", { rotation: 720, duration: 5 })
+  .to("#rallasblancas", { delay: -5, alpha: 1, duration: 1 })
+  .to("#rallasblancas", { alpha: 0, duration: 1 })
+  .to("#star", { alpha: 0, duration: 1 })
+  .to("#logo", { alpha: 1, ease: "sine", duration: 1 })
+  .to("#logo", { y: -100, duration: 1 })
+  .to("#fc", {xPercent: -50, left: "50%", alpha: 1, ease: "sine", duration: 1})
+  .to("#uxengineer", {xPercent: -50,left: "50%",alpha: 1,ease: "sine",duration: 1})
+  .to("#uxengineer", { delay: 1, left: "120%", alpha: 1, ease: "sine", duration: 1 })
+  .to("#fullstack", {xPercent: -50,left: "50%",alpha: 1,ease: "sine",duration: 1})
+  .to("#fullstack",  { delay: 1, left: "120%", alpha: 1, ease: "sine", duration: 1 })
+  .to("#uxdesigner", {xPercent: -50,left: "50%",alpha: 1,ease: "sine",duration: 1})
+  .to("#uxdesigner",  { delay: 1, left: "120%", alpha: 1, ease: "sine", duration: 1 })
+  .to("#animator", {xPercent: -50,left: "50%",alpha: 1,ease: "sine",duration: 1})
+  .to("#animator",  { delay: 1, left: "120%", alpha: 1, ease: "sine", duration: 1 })
+  .to("#photographer", {xPercent: -50,left: "50%",alpha: 1,ease: "sine",duration: 1})
+  .to("#photographer",  { delay: 1, left: "120%", alpha: 1, ease: "sine", duration: 1 });
+  
+  // .to("#logo", { rotationX: 180, duration: 2 })
+  // .to("#logo", { rotation: 360, duration: 2 })
