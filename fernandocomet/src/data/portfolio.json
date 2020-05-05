@@ -1,39 +1,76 @@
 {
     "data": 
       {
-        //TO DO index, thanks to, description 2, Social 5 links, menu 
+        //TO DO 
+        //This is my one and only single source of truth
+
+    
+
+        /*Versions:
+        
+        text
+        works
+        monsters
+        json
+        icon
+        unsplash
+
+
+
+        Menu goes like this
+        logo - home
+        Full Stack Web Developer - programming
+        UX Designer & Researcher - uxdesigner
+        UI Animator and Ad Specialist - animator
+        Photograhper - photographer
+
+        footer - social
+        Linkedin - https://www.linkedin.com/in/fernandocomet/
+        Github - https://github.com/fernandocomet
+        Medium - https://medium.com/@fernandocomet
+        Twitter - https://twitter.com/fernandocomet
+        Instagram - https://www.instagram.com/fernandocomet/
+        DevTo - https://dev.to/fernandocomet
+        Pinterest - https://www.pinterest.es/fernandocomet/
+        Mail? 
+
+
+        CAMBIAR RUTA FERNANDOCOMET POR GITHUB?
+        */
 
 
         "title": "Google Earth Game",
         "description": "A Google Earth Game using React, JSON and MaterializeCSS.",
-        "description2": "Whatever",
-        "thanksto": "TO DO",
+        "description2": "Wanted to do something related to aerial photos and interactive",
+        "thanksto": "Thanks Stackoverflow, Discordapp, Spectrum an Slack communities for always help",
         "icon": "ri-game-line",
         "monster": "https://www.fernandocomet.com/img/monsters/monster1.svg",
         "pic": "https://www.fernandocomet.com/img/pics/earth.png",
         "unsplash": "https://source.unsplash.com/1600x900/?earth",
         "url": "https://googleearthquiz.netlify.app/",
-        "imagedesktop": "TO DO",
-        "imagemobile": "TO DO",
-        "category": "fullstack"
+        "imagedesktop": "https://www.fernandocomet.com/img/desktop/googleearthgame.png",
+        "imagemobile": "https://www.fernandocomet.com/img/mobile/googleearthgame.png",
+        "category": "programming"
       },
       {
         "title": "Froggyfer",
         "description": "A Canvas OOP Javascript game.",
-        "description2": "Whatever",
+        "description2": "A retrospective of the legendary arcade game of the 80s developed by Sega",
+        "thanksto": "Thanks to Fran Naranjo for his patience, dedication and support",
         "icon": "fas fa-frog",
         "monster": "https://www.fernandocomet.com/img/monsters/monster2.svg",
-        "pic": "whatever",
+        "pic": "https://www.fernandocomet.com/img/pics/frog.png",
         "unsplash": "https://source.unsplash.com/1600x900/?frog",
         "url": "https://github.com/fernandocomet/froggyfer",
         "imagedesktop": "https://www.fernandocomet.com/img/desktop/froggyfer.png",
         "imagemobile": "https://www.fernandocomet.com/img/mobile/froggyfer.png",
-        "category": "fullstack"
+        "category": "programming"
       },
       {
         "title": "Runeando",
         "description": "A web App to share running routes in the city.",
-        "description2": "Whatever",
+        "description2": "We made a team of runners and ended up with a runner web app.",
+        "thanksto": "Thanks to Alvaro Monasterio, working with you is easy and inspirational",
         "icon": "fas fa-running",
         "monster": "https://www.fernandocomet.com/img/monsters/monster3.svg",
         "pic": "https://www.fernandocomet.com/img/pics/runner.png",
@@ -41,25 +78,27 @@
         "url": "https://github.com/runeando/runeando",
         "imagedesktop": "https://www.fernandocomet.com/img/desktop/runeando.png",
         "imagemobile": "https://www.fernandocomet.com/img/mobile/runeando.png",
-        "category": "fullstack"
+        "category": "programming"
       },
       {
-        "title": "Portofolio Website",
+        "title": "Portfolio Website",
         "description": "A JSON React web App. Actually this is what you are seeing now ;D.",
-        "description2": "Whatever",
+        "description2": "Currently this is the project where you the User are ;D",
+        "thanksto": "Thanks Gabriel Guerrero, aka Kolision Studio for the logo (my logo!), looks nice! You will have eternal beers for this.",
         "icon": "fas fa-spider",
         "monster": "https://www.fernandocomet.com/img/monsters/monster4.svg",
         "pic": "https://www.fernandocomet.com/img/pics/portfolio.png",
         "unsplash": "https://source.unsplash.com/1600x900/?portfolio",
-        "url": "https://github.com/fernandocomet/website",
+        "url": "https://github.com/fernandocomet/website",                //Change
         "imagedesktop": "https://www.fernandocomet.com/img/desktop/fc.png",
         "imagemobile": "https://www.fernandocomet.com/img/mobile/fc.png",
-        "category": "fullstack"
+        "category": "programming"
       },      
       {
         "title": "Cerebriti App Case Study",
         "description": "Working as a UX Designer making an educational Tablet App.",
-        "description2": "Whatever",
+        "description2": "A challenge into the complicated world of education.",
+        "thanksto": "Thanks Mist & Joseba, see you on travel!",
         "icon": "fas fa-book-open",
         "monster": "https://www.fernandocomet.com/img/monsters/monster5.svg",
         "pic": "https://www.fernandocomet.com/img/pics/education.png",
@@ -72,7 +111,8 @@
       {
         "title": "Runway App for runners",
         "description": "A whole UX Research for a runners´ App.",
-        "description2": "Whatever",
+        "description2": "I really like doing this type of work.",
+        "thanksto": "Thanks to mentors Oscar Sántos-Pérez and Samuel Hermoso from Elastic Heads.",
         "icon": "fas fa-shoe-prints",
         "monster": "https://www.fernandocomet.com/img/monsters/monster6.svg",
         "pic": "https://www.fernandocomet.com/img/pics/running.png",
@@ -85,7 +125,8 @@
       {
         "title": "Clandestinos, web app for beer distributors",
         "description": "A Craft Beer UX Case Study.",
-        "description2": "Whatever",
+        "description2": "Best research ever at bars and pubs!",
+        "thanksto": "Thanks Kevin Glidden for introducing me in the magnificent world of Craft Beer.",
         "icon": "fas fa-beer",
         "monster": "https://www.fernandocomet.com/img/monsters/monster7.svg",
         "pic": "https://www.fernandocomet.com/img/pics/beer.png",
@@ -98,7 +139,7 @@
       {
         "title": "Running Apps UX Research",
         "description": "This is a UX Research I made about Running Apps.",
-        "description2": "Whatever",
+        "description2": "Whatever", //AQUÍ
         "icon": "fas fa-university",
         "monster": "https://www.fernandocomet.com/img/monsters/monster8.svg",
         "pic": "https://www.fernandocomet.com/img/pics/research.png",
@@ -112,6 +153,7 @@
         "title": "UX Canvas Compilation",
         "description": "A collection of best UX Canvas boards to use in your own projects.",
         "description2": "Whatever",
+        "thanksto": "Love Pinterest so much, I could spend there ages...",
         "icon": "fab fa-studiovinari",
         "monster": "https://www.fernandocomet.com/img/monsters/monster9.svg",
         "pic": "https://www.fernandocomet.com/img/pics/ux.png",
@@ -119,7 +161,7 @@
         "url": "https://medium.com/@fernandocomet/ux-canvas-compilation-6718822d9a22",
         "imagedesktop": "https://www.fernandocomet.com/img/desktop/uxcanvascompilation.png",
         "imagemobile": "https://www.fernandocomet.com/img/mobile/uxcanvascompilation.png",
-        "category": "workshops"
+        "category": "uxdesigner"
       },  
       {
         "title": "The Player Persona template",
@@ -132,7 +174,7 @@
         "url": "https://medium.com/@fernandocomet/the-player-persona-template-d171e3e0c05d",
         "imagedesktop": "https://www.fernandocomet.com/img/desktop/playerpersona.png",
         "imagemobile": "https://www.fernandocomet.com/img/mobile/playerpersona.png",
-        "category": "workshops"
+        "category": "uxdesigner"
       },  
       {
         "title": "Design Sprint as facilitator",
@@ -145,7 +187,7 @@
         "url": "https://blog.prototypr.io/design-sprint-as-facilitator-definitive-guide-84c0294f3f18",
         "imagedesktop": "https://www.fernandocomet.com/img/desktop/sprint.png",
         "imagemobile": "https://www.fernandocomet.com/img/mobile/sprint.png",
-        "category": "workshops"
+        "category": "uxdesigner"
       },  
       {
         "title": "My UX resource list",
@@ -158,7 +200,7 @@
         "url": "https://blog.prototypr.io/my-ux-resource-list-96ab9e36ac24",
         "imagedesktop": "https://www.fernandocomet.com/img/desktop/myuxresourcelist.png",
         "imagemobile": "https://www.fernandocomet.com/img/mobile/myuxresourcelist.png",
-        "category": "workshops"
+        "category": "uxdesigner"
       },  
       {
         "title": "Voice User Interface Insights",
@@ -171,7 +213,7 @@
         "url": "https://blog.prototypr.io/voice-user-interface-insights-686fe441e425",
         "imagedesktop": "https://www.fernandocomet.com/img/desktop/vuiinsights.png",
         "imagemobile": "https://www.fernandocomet.com/img/mobile/vuiinsights.png",
-        "category": "workshops"
+        "category": "uxdesigner"
       },   
       {
         "title": "The Category Ideation Method",
@@ -184,7 +226,7 @@
         "url": "https://blog.prototypr.io/the-category-ideation-method-804cd5622974",
         "imagedesktop": "https://www.fernandocomet.com/img/desktop/categoryideation.png",
         "imagemobile": "https://www.fernandocomet.com/img/mobile/categoryideation.png",
-        "category": "workshops"
+        "category": "uxdesigner"
       },  
       {
         "title": "UX Ads and Google Chrome Ad Crackdown",
@@ -197,7 +239,7 @@
         "url": "https://medium.com/@fernandocomet/ux-ads-and-google-chrome-ad-crackdown-df7d24b4e913",
         "imagedesktop": "https://www.fernandocomet.com/img/desktop/adcrackdown.png",
         "imagemobile": "https://www.fernandocomet.com/img/mobile/adcrackdown.png",
-        "category": "workshops"
+        "category": "uxdesigner"
       },   
       {
         "title": "Trello Customer Journey Extension",
@@ -210,7 +252,7 @@
         "url": "https://blog.prototypr.io/trello-customer-journey-extension-17757a961c67",
         "imagedesktop": "https://www.fernandocomet.com/img/desktop/trellocustomerjourney.png",
         "imagemobile": "https://www.fernandocomet.com/img/mobile/trellocustomerjourney.png",
-        "category": "workshops"
+        "category": "uxdesigner"
       },   
       {
         "title": "IFEMA FITUR Ad Case Study",
