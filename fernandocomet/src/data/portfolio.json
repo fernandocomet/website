@@ -100,7 +100,7 @@
       {
         "title": "Running Apps UX Research",
         "description": "This is a UX Research I made about Running Apps.",
-        "description2": "Whatever", //AQUÍ
+        "description2": "Whatever", 
         "icon": "fas fa-university",
         "monster": "https://www.fernandocomet.com/img/monsters/monster8.svg",
         "pic": "https://www.fernandocomet.com/img/pics/research.png",
