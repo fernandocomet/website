@@ -1,44 +1,5 @@
-{
-    "data": 
+[
       {
-        //TO DO 
-        //This is my one and only single source of truth
-
-    
-
-        /*Versions:
-        
-        text
-        works
-        monsters
-        json
-        icon
-        unsplash
-
-
-
-        Menu goes like this
-        logo - home
-        Full Stack Web Developer - programming
-        UX Designer & Researcher - uxdesigner
-        UI Animator and Ad Specialist - animator
-        Photograhper - photographer
-
-        footer - social
-        Linkedin - https://www.linkedin.com/in/fernandocomet/
-        Github - https://github.com/fernandocomet
-        Medium - https://medium.com/@fernandocomet
-        Twitter - https://twitter.com/fernandocomet
-        Instagram - https://www.instagram.com/fernandocomet/
-        DevTo - https://dev.to/fernandocomet
-        Pinterest - https://www.pinterest.es/fernandocomet/
-        Mail? 
-
-
-        CAMBIAR RUTA FERNANDOCOMET POR GITHUB?
-        */
-
-
         "title": "Google Earth Game",
         "description": "A Google Earth Game using React, JSON and MaterializeCSS.",
         "description2": "Wanted to do something related to aerial photos and interactive",
@@ -360,9 +321,8 @@
         "imagemobile": "https://www.fernandocomet.com/img/mobile/personalprojects.png",
         "category": "photographer"
       }       
-    
-  }
+]
 
-  // code  - <i class="fas fa-laptop-code"></i>
+
 
 

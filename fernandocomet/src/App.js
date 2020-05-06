@@ -15,6 +15,11 @@ import icon from "./img/navbar/icon.svg";
 
 class App extends Component{  
 
+  /*Single Source of truth
+  https://github.com/fernandocomet/website/blob/master/fernandocomet/src/data/portfolio.json
+  https://raw.githubusercontent.com/fernandocomet/website/master/fernandocomet/src/data/portfolio.json
+  */
+
   static defaultProps={
     menu:[
       {name: "", icon: "home.svg", src: home}, //home
@@ -25,7 +30,19 @@ class App extends Component{
       {name: "monster", icon: "text.svg", src: monster},
       {name: "icon", icon: "text.svg", src: icon}
     ]
+  }
 
+  constructor(props){
+    super(props);
+    this.state = {
+      data:[]
+    }
+  }
+
+  componentDidMount(){
+    fetch('https://raw.githubusercontent.com/fernandocomet/website/master/fernandocomet/src/data/portfolio.json')
+      .then(response => response.json())
+      .then(data => this.setState({ data }))
   }
 
   render(){
