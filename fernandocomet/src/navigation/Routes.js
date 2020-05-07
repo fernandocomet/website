@@ -13,7 +13,7 @@ class Routes extends Component{
     render(){
         return(
             <div>
-                <h1>This is Routes</h1>
+                {/* <h1>This is Routes</h1> */}
                 <Switch>
                     <Route exact path='/' render={() => <Home name='home'/>} />
                     <Route exact path='/text' component={() => <Text name='text' />} />

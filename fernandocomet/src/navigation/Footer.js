@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { ExternalLink } from 'react-external-link';
-import linkedin from "../img/social/linkedin.svg";
-import github from "../img/social/github.svg";
-import medium from "../img/social/medium.svg";
-import twitter from "../img/social/twitter.svg";
-import instagram from "../img/social/instagram.svg";
-import devto from "../img/social/dev-dot-to.svg";
-import pinterest from "../img/social/pinterest.svg";
+import linkedin from "../img/social/white_linkedin.svg";
+import github from "../img/social/white_github.svg";
+import medium from "../img/social/white_medium.svg";
+import twitter from "../img/social/white_twitter.svg";
+import instagram from "../img/social/white_instagram.svg";
+import devto from "../img/social/white_dev-dot-to.svg";
+import pinterest from "../img/social/white_pinterest.svg";
+import './Footer.css';
 
 //TODO: Reset Styles, Flexbox , DarkMode?
 
@@ -27,21 +28,18 @@ class Social extends Component{
 
     render(){
         const socialLinks = this.props.social.map(item => (
-            <li key={item.name}>
+            <div className="footer-item" key={item.name}>
                 <ExternalLink href={item.url}>
                         <img src={item.src} alt={item.name} width='24px'/>
                         {/* <span> {item.name} </span> */}
                 </ExternalLink>
-            </li>
+            </div>
         ))
 
         return(
-            <div>
-                <h1>This is social</h1>
-                <ul>
-                    {socialLinks}
-                </ul>
-                
+            <div className="footer">
+                {/* <h1>This is social</h1> */}   
+                {socialLinks}
             </div>
         )
     }

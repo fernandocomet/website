@@ -4,13 +4,13 @@ import Navbar from './navigation/Navbar';
 import Footer from './navigation/Footer';
 import Routes from './navigation/Routes';
 import { Route, NavLink, Switch } from 'react-router-dom';
-import home from "./img/navbar/home.svg";
-import text from "./img/navbar/text.svg";
-import works from "./img/navbar/works.svg";
-import json from "./img/navbar/json.svg";
-import unsplash from "./img/navbar/unsplash.svg";
-import monster from "./img/navbar/monster.svg";
-import icon from "./img/navbar/icon.svg";
+import home from "./img/navbar/white_home.svg";
+import text from "./img/navbar/white_text.svg";
+import works from "./img/navbar/white_works.svg";
+import json from "./img/navbar/white_json.svg";
+import unsplash from "./img/navbar/white_unsplash.svg";
+import monster from "./img/navbar/white_monster.svg";
+import icon from "./img/navbar/white_icon.svg";
 
 
 class App extends Component{  
@@ -47,12 +47,16 @@ class App extends Component{
 
   render(){
     return (
-      <div className="App">
-        <Navbar menu={this.props.menu} />
-        <div className="container">
-          <Routes menu={this.props.menu} />
-        </div>
-        <Footer menu={this.props.social} />
+      <div className="container">
+          <div className="navbar">
+            <Navbar menu={this.props.menu} />
+          </div>  
+          <div className="main">
+              <Routes menu={this.props.menu} />
+          </div>
+          <div className="footer">
+            <Footer menu={this.props.social} />
+          </div>
       </div>
     );
   }
