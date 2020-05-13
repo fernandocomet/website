@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+// import React, { Component, useState } from 'react';
 import './App.css';
 import Navbar from './navigation/Navbar';
 import Footer from './navigation/Footer';
@@ -32,32 +33,65 @@ class App extends Component{
     ]
   }
 
+  /*
   constructor(props){
     super(props);
     this.state = {
-      data:[]
+      data:[],
+      works:[]
     }
+    this.initialSet = this.initialSet.bind(this);
   }
 
   componentDidMount(){
     fetch('https://raw.githubusercontent.com/fernandocomet/website/master/fernandocomet/src/data/portfolio.json')
       .then(response => response.json())
       .then(data => this.setState({ data }))
+      .then(this.initialSet)
   }
 
+  initialSet(){
+    let worksArr = [];
+    for (let i = 0; i < this.state.data.length ; i++){
+      worksArr.push(this.state.data[i].title)
+    }
+    this.setState({
+      works: worksArr
+    })
+    console.log(works)
+    /* 
+    I need Array Objects, for each:
+        title
+        description
+        description2
+        thanksto
+        icon
+        monster
+        pic
+        unsplash
+        url
+        imagedesktop
+        imagemobile
+        category
+    /
+  }*/
+
   render(){
+
+    //const [nameState, setNameState] = useState('Adam');
+
     return (
-      <div className="container">
-          <div className="navbar">
-            <Navbar menu={this.props.menu} />
-          </div>  
-          <div className="main">
-              <Routes menu={this.props.menu} />
-          </div>
-          <div className="footer">
-            <Footer menu={this.props.social} />
-          </div>
-      </div>
+        <div className="container">
+            <div className="navbar">
+              <Navbar menu={this.props.menu} />
+            </div>  
+            <div className="main">
+                <Routes menu={this.props.menu} />
+            </div>
+            <div className="footer">
+              <Footer menu={this.props.social} />
+            </div>
+        </div>
     );
   }
 
