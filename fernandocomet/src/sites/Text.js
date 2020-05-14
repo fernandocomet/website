@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import './Text.css';
+import gsap from "gsap";
+import { TextPlugin } from "gsap/TextPlugin";
+gsap.registerPlugin(TextPlugin);
 //import 'gsap/TextPlugin';
 
 class Text extends Component{
@@ -160,9 +163,12 @@ class Text extends Component{
         super(props);
         this.state = {
           data:[],
-          works:[]
+          works:[],
+          counter:0
         }
         this.initialSet = this.initialSet.bind(this);
+        this.generateText = this.generateText.bind(this);
+        this.changeText = this.changeText.bind(this);
       }
 
     componentDidMount(){
@@ -181,30 +187,36 @@ class Text extends Component{
         this.setState({
           works: worksArr
         })
-        //console.log(this.state.data);
-        /* 
-        I need Array Objects, for each:
-            title
-            description
-            description2
-            thanksto
-            icon
-            monster
-            pic
-            unsplash
-            url
-            imagedesktop
-            imagemobile
-            category
-        */
+        
+        //Here we go
+        var tl = gsap.timeline({ repeat: -1 });
+        this.props.colors.forEach((color) => {
+        tl.to("#message", { xPercent: -50, left: "50%", duration: 1, delay: 1 })
+            .to("#bg", { backgroundColor: color.dark, duration: 1, delay: 3 })
+            .to("#message", { color: color.light, duration: 2, delay: 0 })
+            .add(this.generateText);
+        });
+    }
+
+    generateText() {
+        gsap.to("#message", { text: this.changeText(this.props.messages) });
+    }
+
+    changeText(arr) {
+        console.log(this.state.counter);
+        let counterChange = this.state.counter + 1;
+        if (counterChange === 24) {
+            counterChange = 0;
+        }
+        this.setState({ counter: counterChange })
+        return this.props.messages[counterChange].title;
     }
     
     render(){
         return(
-            <div className="text-container">
-                <h1>This is Text</h1>
-                <h3>{this.props.works}</h3>
-            </div>
+          <div id="bg">
+            <h1 id="message">Here comes main text</h1>
+          </div>
         )
     }
 
