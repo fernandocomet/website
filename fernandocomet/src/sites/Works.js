@@ -1,4 +1,7 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import Card from './Card';
+import './Works.css';
+// import uuid from "uuid/v4";
 
 class Works extends Component{
 
@@ -55,7 +58,6 @@ class Works extends Component{
             imagesdesktop: imagesdesktopArr,
             imagesmobile: imagesmobileArr
         })
-
         
             console.log(this.state.titles[0]);
             console.log(this.state.descriptions[0]);
@@ -78,12 +80,43 @@ class Works extends Component{
             imagedesktop
             imagemobile
             category
+
+            introEnd = 
+            <ul className="collection multiple-choice">
+                  {this.state.countriesQuizz.map((item, idx) => (
+                        <button disabled={this.state.quizzing} className="neutral" onClick={this.handleChange.bind(this, idx)} key={idx}>{item}</button>
+                  ))}
+            </ul>
+
+             <div className="JokeList-jokes">
+          {jokes.map((item, idx) => (
+            <Joke
+              key={item.id}
+              item={item.joke}
+              points={item.points}
+              rankUp={() => this.handlePoints(item.id, 1)}
+              rankDown={() => this.handlePoints(item.id, -1)}
+            />
+          ))}
         */
     }
 
     render(){
         return(
-            <h1>This is Works</h1>
+            <div className="card-list">
+                {this.state.data.map((item, id) => (
+                    <Card 
+                    key={item.id} 
+                    image={item.pic}
+                    title={item.title} 
+                    hashtag={item.category}
+                    description={item.description}
+                    description2={item.description2}
+                    thanksto={item.thanksto}
+                    seemore={item.url}
+                    />
+                ))}
+            </div>
         )
     }
 

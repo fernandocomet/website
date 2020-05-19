@@ -11,7 +11,8 @@
         "url": "https://googleearthquiz.netlify.app/",
         "imagedesktop": "https://www.fernandocomet.com/img/desktop/googleearthgame.png",
         "imagemobile": "https://www.fernandocomet.com/img/mobile/googleearthgame.png",
-        "category": "programming"
+        "category": "programming",
+        "id": "1"
       },
       {
         "title": "Froggyfer",
@@ -25,7 +26,8 @@
         "url": "https://github.com/fernandocomet/froggyfer",
         "imagedesktop": "https://www.fernandocomet.com/img/desktop/froggyfer.png",
         "imagemobile": "https://www.fernandocomet.com/img/mobile/froggyfer.png",
-        "category": "programming"
+        "category": "programming",
+        "id": "2"
       },
       {
         "title": "Runeando",
@@ -39,7 +41,8 @@
         "url": "https://github.com/runeando/runeando",
         "imagedesktop": "https://www.fernandocomet.com/img/desktop/runeando.png",
         "imagemobile": "https://www.fernandocomet.com/img/mobile/runeando.png",
-        "category": "programming"
+        "category": "programming",
+        "id": "3"
       },
       {
         "title": "Portfolio Website",
@@ -53,7 +56,8 @@
         "url": "https://github.com/fernandocomet/website",                
         "imagedesktop": "https://www.fernandocomet.com/img/desktop/fc.png",
         "imagemobile": "https://www.fernandocomet.com/img/mobile/fc.png",
-        "category": "programming"
+        "category": "programming",
+        "id": "4"
       },      
       {
         "title": "Cerebriti App Case Study",
@@ -67,7 +71,8 @@
         "url": "https://medium.com/@fernandocomet/cerebriti-app-case-study-b352071eccf5",
         "imagedesktop": "https://www.fernandocomet.com/img/desktop/cerebriti.png",
         "imagemobile": "https://www.fernandocomet.com/img/mobile/cerebriti.png",
-        "category": "uxdesigner"
+        "category": "uxdesigner",
+        "id": "5"
       },   
       {
         "title": "Runway App for runners",
@@ -81,7 +86,8 @@
         "url": "https://blog.prototypr.io/runway-ux-case-study-d855fb049192",
         "imagedesktop": "https://www.fernandocomet.com/img/desktop/runway.png",
         "imagemobile": "https://www.fernandocomet.com/img/mobile/runway.png",
-        "category": "uxdesigner"
+        "category": "uxdesigner",
+        "id": "6"
       },  
       {
         "title": "Clandestinos, web app for beer distributors",
@@ -95,7 +101,8 @@
         "url": "https://blog.prototypr.io/craft-beer-ux-case-study-b65081ff13a4",
         "imagedesktop": "https://www.fernandocomet.com/img/desktop/clandestinos.png",
         "imagemobile": "https://www.fernandocomet.com/img/mobile/clandestinos.png",
-        "category": "uxdesigner"
+        "category": "uxdesigner",
+        "id": "7"
       },  
       {
         "title": "Running Apps UX Research",
@@ -109,7 +116,8 @@
         "url": "https://medium.com/@fernandocomet/running-apps-ux-research-7e07e41f556c",
         "imagedesktop": "https://www.fernandocomet.com/img/desktop/uxbenchmark.png",
         "imagemobile": "https://www.fernandocomet.com/img/mobile/uxbenchmark.png",
-        "category": "uxdesigner"
+        "category": "uxdesigner",
+        "id": "8"
       },  
       {
         "title": "UX Canvas Compilation",
@@ -123,7 +131,8 @@
         "url": "https://medium.com/@fernandocomet/ux-canvas-compilation-6718822d9a22",
         "imagedesktop": "https://www.fernandocomet.com/img/desktop/uxcanvascompilation.png",
         "imagemobile": "https://www.fernandocomet.com/img/mobile/uxcanvascompilation.png",
-        "category": "uxdesigner"
+        "category": "uxdesigner",
+        "id": "9"
       },  
       {
         "title": "The Player Persona template",
@@ -137,7 +146,8 @@
         "url": "https://medium.com/@fernandocomet/the-player-persona-template-d171e3e0c05d",
         "imagedesktop": "https://www.fernandocomet.com/img/desktop/playerpersona.png",
         "imagemobile": "https://www.fernandocomet.com/img/mobile/playerpersona.png",
-        "category": "uxdesigner"
+        "category": "uxdesigner",
+        "id": "10"
       },  
       {
         "title": "Design Sprint as facilitator",
@@ -151,7 +161,8 @@
         "url": "https://blog.prototypr.io/design-sprint-as-facilitator-definitive-guide-84c0294f3f18",
         "imagedesktop": "https://www.fernandocomet.com/img/desktop/sprint.png",
         "imagemobile": "https://www.fernandocomet.com/img/mobile/sprint.png",
-        "category": "uxdesigner"
+        "category": "uxdesigner",
+        "id": "11"
       },  
       {
         "title": "My UX resource list",
@@ -165,7 +176,8 @@
         "url": "https://blog.prototypr.io/my-ux-resource-list-96ab9e36ac24",
         "imagedesktop": "https://www.fernandocomet.com/img/desktop/myuxresourcelist.png",
         "imagemobile": "https://www.fernandocomet.com/img/mobile/myuxresourcelist.png",
-        "category": "uxdesigner"
+        "category": "uxdesigner",
+        "id": "12"
       },  
       {
         "title": "Voice User Interface Insights",
@@ -179,7 +191,8 @@
         "url": "https://blog.prototypr.io/voice-user-interface-insights-686fe441e425",
         "imagedesktop": "https://www.fernandocomet.com/img/desktop/vuiinsights.png",
         "imagemobile": "https://www.fernandocomet.com/img/mobile/vuiinsights.png",
-        "category": "uxdesigner"
+        "category": "uxdesigner",
+        "id": "13"
       },   
       {
         "title": "The Category Ideation Method",
@@ -193,7 +206,8 @@
         "url": "https://blog.prototypr.io/the-category-ideation-method-804cd5622974",
         "imagedesktop": "https://www.fernandocomet.com/img/desktop/categoryideation.png",
         "imagemobile": "https://www.fernandocomet.com/img/mobile/categoryideation.png",
-        "category": "uxdesigner"
+        "category": "uxdesigner",
+        "id": "14"
       },  
       {
         "title": "UX Ads and Google Chrome Ad Crackdown",
@@ -207,7 +221,8 @@
         "url": "https://medium.com/@fernandocomet/ux-ads-and-google-chrome-ad-crackdown-df7d24b4e913",
         "imagedesktop": "https://www.fernandocomet.com/img/desktop/adcrackdown.png",
         "imagemobile": "https://www.fernandocomet.com/img/mobile/adcrackdown.png",
-        "category": "uxdesigner"
+        "category": "uxdesigner",
+        "id": "15"
       },   
       {
         "title": "Trello Customer Journey Extension",
@@ -221,7 +236,8 @@
         "url": "https://blog.prototypr.io/trello-customer-journey-extension-17757a961c67",
         "imagedesktop": "https://www.fernandocomet.com/img/desktop/trellocustomerjourney.png",
         "imagemobile": "https://www.fernandocomet.com/img/mobile/trellocustomerjourney.png",
-        "category": "uxdesigner"
+        "category": "uxdesigner",
+        "id": "16"
       },   
       {
         "title": "IFEMA FITUR Ad Case Study",
@@ -249,7 +265,8 @@
         "url": "https://medium.com/@fernandocomet/ui-design-animation-process-13953d2bd215",
         "imagedesktop": "https://www.fernandocomet.com/img/desktop/uianimation.png",
         "imagemobile": "https://www.fernandocomet.com/img/mobile/uianimation.png",
-        "category": "animator"
+        "category": "animator",
+        "id": "17"
       },   
       {
         "title": "UOC DCO Case Study",
@@ -263,7 +280,8 @@
         "url": "https://medium.com/@fernandocomet/uoc-dco-case-study-893e1cb27a2c",
         "imagedesktop": "https://www.fernandocomet.com/img/desktop/uoc.png",
         "imagemobile": "https://www.fernandocomet.com/img/mobile/uoc.png",
-        "category": "animator"
+        "category": "animator",
+        "id": "18"
       },      
       {
         "title": "Awards",
@@ -277,7 +295,8 @@
         "url": "http://www.fernandocomet.com/prices/awards/superluna-y-supergaviota/",
         "imagedesktop": "https://www.fernandocomet.com/img/desktop/puntapaloma.png",
         "imagemobile": "https://www.fernandocomet.com/img/mobile/puntapaloma.png",
-        "category": "photographer"
+        "category": "photographer",
+        "id": "19"
       },     
       {
         "title": "Travel Photographer",
@@ -291,7 +310,8 @@
         "url": "http://www.fernandocomet.com/prices/archiitecture/four-days-in-london/",
         "imagedesktop": "https://www.fernandocomet.com/img/desktop/london.png",
         "imagemobile": "https://www.fernandocomet.com/img/mobile/london.png",
-        "category": "photographer"
+        "category": "photographer",
+        "id": "20"
       },   
       {
         "title": "Stock Photo Contributor",
@@ -305,7 +325,8 @@
         "url": "https://www.shutterstock.com/g/fernandocomet",
         "imagedesktop": "https://www.fernandocomet.com/img/desktop/stockphoto.png",
         "imagemobile": "https://www.fernandocomet.com/img/mobile/stockphoto.png",
-        "category": "photographer"
+        "category": "photographer",
+        "id": "22"
       },  
       {
         "title": "Instagram profile",
@@ -319,7 +340,8 @@
         "url": "https://www.instagram.com/fernandocomet/",
         "imagedesktop": "https://www.fernandocomet.com/img/desktop/ig.png",
         "imagemobile": "https://www.fernandocomet.com/img/mobile/ig.png",
-        "category": "photographer"
+        "category": "photographer",
+        "id": "23"
       },    
       {
         "title": "Personal Projects",
@@ -333,7 +355,8 @@
         "url": "http://www.fernandocomet.com/prices/uncategorized/secret-life-of-a-photographer/' target='_blank'>See more</a></strong>,</p>",
         "imagedesktop": "https://www.fernandocomet.com/img/desktop/personalprojects.png",
         "imagemobile": "https://www.fernandocomet.com/img/mobile/personalprojects.png",
-        "category": "photographer"
+        "category": "photographer",
+        "id": "24"
       }       
 ]
 

@@ -13,7 +13,9 @@
 
 
 body {
-  overflow: hidden;
+  /* overflow: hidden;*/
+  overflow-y: auto; 
+  overflow-x: hidden;
   background-color: #141413;
 }
 

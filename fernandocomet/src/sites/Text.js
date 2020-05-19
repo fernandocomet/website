@@ -3,9 +3,9 @@ import './Text.css';
 import gsap from "gsap";
 import { TextPlugin } from "gsap/TextPlugin";
 gsap.registerPlugin(TextPlugin);
-//import 'gsap/TextPlugin';
 
 class Text extends Component{
+  //_isMounted = false;
     
     static defaultProps={
         colors:[
@@ -171,11 +171,19 @@ class Text extends Component{
         this.changeText = this.changeText.bind(this);
       }
 
-    componentDidMount(){
-        fetch('https://raw.githubusercontent.com/fernandocomet/website/master/fernandocomet/src/data/portfolio.json')
+    async componentDidMount(){
+      //this._isMounted = true;
+      //way 1
+      const response = await fetch(`https://raw.githubusercontent.com/fernandocomet/website/master/fernandocomet/src/data/portfolio.json`);
+      const json = await response.json();
+      this.setState({ data: json });
+      this.initialSet();
+
+      //way 2
+       /* fetch('https://raw.githubusercontent.com/fernandocomet/website/master/fernandocomet/src/data/portfolio.json')
           .then(response => response.json())
           .then(data => this.setState({ data }))
-          .then(this.initialSet)
+          .then(this.initialSet)*/
     }
 
     initialSet(){
