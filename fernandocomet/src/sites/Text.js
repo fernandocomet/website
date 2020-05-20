@@ -5,7 +5,7 @@ import { TextPlugin } from "gsap/TextPlugin";
 gsap.registerPlugin(TextPlugin);
 
 class Text extends Component{
-  //_isMounted = false;
+  _isMounted = false;
     
     static defaultProps={
         colors:[
@@ -172,7 +172,7 @@ class Text extends Component{
       }
 
     async componentDidMount(){
-      //this._isMounted = true;
+      this._isMounted = true;
       //way 1
       const response = await fetch(`https://raw.githubusercontent.com/fernandocomet/website/master/fernandocomet/src/data/portfolio.json`);
       const json = await response.json();
@@ -188,14 +188,14 @@ class Text extends Component{
 
     initialSet(){
         
-        /*let worksArr = [];
+        let worksArr = [];
         for (let i = 0; i < this.state.data.length ; i++){
           worksArr.push(this.state.data[i].title)
-          console.log(this.state.data[i].title);
+          // console.log(this.state.data[i].title);
         }
         this.setState({
           works: worksArr
-        })*/
+        })
         
         //Here we go
         var tl = gsap.timeline({ repeat: -1 });
@@ -224,7 +224,7 @@ class Text extends Component{
     render(){
         return(
           <div id="bg">
-            <h1 id="message">Here comes main text</h1>
+            <h1 id="message">Fernando Comet</h1>
           </div>
         )
     }

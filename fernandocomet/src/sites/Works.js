@@ -1,15 +1,49 @@
 import React, { Component } from 'react';
 import Card from './Card';
 import './Works.css';
-// import uuid from "uuid/v4";
+
 
 class Works extends Component{
 
     constructor(props){
         super(props);
         this.state = {
-          data:[],
-          titles:[],
+          data:[]
+        }
+      }
+
+    componentDidMount(){
+        fetch('https://raw.githubusercontent.com/fernandocomet/website/master/fernandocomet/src/data/portfolio.json')
+          .then(response => response.json())
+          .then(data => this.setState({ data }))
+    }
+
+  
+    render(){
+        return(
+              <div className="card-list">
+                  {this.state.data.map((item, idx) => (
+                      <Card 
+                      key={idx} 
+                      image={item.pic}
+                      title={item.title} 
+                      hashtag={item.category}
+                      description={item.description}
+                      description2={item.description2}
+                      thanksto={item.thanksto}
+                      seemore={item.url}
+                      />
+                  ))}
+              </div>     
+        )
+    }
+
+}
+
+export default Works;
+
+/*
+            titles:[],
           descriptions:[],
           descriptions2:[],
           thankstos:[],
@@ -17,20 +51,14 @@ class Works extends Component{
           urls:[],
           imagesdesktop:[],
           imagesmobile:[]
-        }
-        this.initialSet = this.initialSet.bind(this);
-      }
 
-    componentDidMount(){
-        fetch('https://raw.githubusercontent.com/fernandocomet/website/master/fernandocomet/src/data/portfolio.json')
-          .then(response => response.json())
-          .then(data => this.setState({ data }))
-          .then(this.initialSet)
-    }
+              <div className="main">
+                  <Routes menu={this.props.menu} />
+              </div>
 
-    initialSet(){
+              /*initialSet(){
         console.log('I really don´t need this!')
-        /*let titleArr = [];
+        let titleArr = [];
         let descriptionArr = [];
         let description2Arr = [];
         let thankstoArr = [];
@@ -68,34 +96,9 @@ class Works extends Component{
             console.log(this.state.urls[0]);
             console.log(this.state.imagesdesktop[0]);
             console.log(this.state.imagesmobile[0]);
-        */
+        
 
-    }
-
-    render(){
-        return(
-            <div className="card-list">
-                {this.state.data.map((item, id) => (
-                    <Card 
-                    key={item.id} 
-                    image={item.pic}
-                    title={item.title} 
-                    hashtag={item.category}
-                    description={item.description}
-                    description2={item.description2}
-                    thanksto={item.thanksto}
-                    seemore={item.url}
-                    />
-                ))}
-            </div>
-        )
-    }
-
-}
-
-export default Works;
-
-/*
+           
       {
         "title": "Stock Photo Contributor",
         "description": "I´m selling at Shutterstock, GettyInages and DreamsTime.",

@@ -4,7 +4,7 @@ import './App.css';
 import Navbar from './navigation/Navbar';
 import Footer from './navigation/Footer';
 import Routes from './navigation/Routes';
-import { Route, NavLink, Switch } from 'react-router-dom';
+// import { Route, NavLink, Switch } from 'react-router-dom';
 import home from "./img/navbar/white_home.svg";
 import text from "./img/navbar/white_text.svg";
 import works from "./img/navbar/white_works.svg";
@@ -41,9 +41,9 @@ class App extends Component{
             <div className="navbar">
               <Navbar menu={this.props.menu} />
             </div>  
-            <div className="main">
-                <Routes menu={this.props.menu} />
-            </div>
+              <div className="main">
+                  <Routes menu={this.props.menu} />
+              </div>
             <div className="footer">
               <Footer menu={this.props.social} />
             </div>

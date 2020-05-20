@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import{ Switch, Route, Redirect } from 'react-router-dom';
+import{ Switch, Route } from 'react-router-dom';
+// import{ Switch, Route, Redirect } from 'react-router-dom';
 import Home from '../sites/Home';
 import Text from '../sites/Text';
 import Works from '../sites/Works';
@@ -22,7 +23,7 @@ class Routes extends Component{
                     <Route exact path='/unsplash' component={() => <Unsplash name='unsplash' />} />
                     <Route exact path='/monster' component={() => <Monster name='monster' />} />
                     <Route exact path='/icon' component={() => <Icon name='icon' />} />
-                    {/* <Route render={() => <NotFound />} /> */} */}
+                    {/* <Route render={() => <NotFound />} /> */}
                 </Switch>
             </div>
         )

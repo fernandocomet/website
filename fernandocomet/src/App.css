@@ -3,6 +3,9 @@
   z-index: 100001;
 }
 
+body {
+  background-color: #141413;
+}
 
 .footer {
   position: absolute;
@@ -10,13 +13,3 @@
   right: 0px;
   z-index: 100002;
 }
-
-
-body {
-  /* overflow: hidden;
-  overflow-y: auto; 
-  overflow-x: hidden;*/
-  background-color: #141413;
-}
-
-
