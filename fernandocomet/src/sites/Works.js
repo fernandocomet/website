@@ -29,7 +29,8 @@ class Works extends Component{
     }
 
     initialSet(){
-        let titleArr = [];
+        console.log('I really don´t need this!')
+        /*let titleArr = [];
         let descriptionArr = [];
         let description2Arr = [];
         let thankstoArr = [];
@@ -67,38 +68,8 @@ class Works extends Component{
             console.log(this.state.urls[0]);
             console.log(this.state.imagesdesktop[0]);
             console.log(this.state.imagesmobile[0]);
-        
-        //console.log(this.state.data);
-        /* 
-        I need Array Objects, for each:
-            title
-            description
-            description2
-            thanksto
-            pic
-            url
-            imagedesktop
-            imagemobile
-            category
-
-            introEnd = 
-            <ul className="collection multiple-choice">
-                  {this.state.countriesQuizz.map((item, idx) => (
-                        <button disabled={this.state.quizzing} className="neutral" onClick={this.handleChange.bind(this, idx)} key={idx}>{item}</button>
-                  ))}
-            </ul>
-
-             <div className="JokeList-jokes">
-          {jokes.map((item, idx) => (
-            <Joke
-              key={item.id}
-              item={item.joke}
-              points={item.points}
-              rankUp={() => this.handlePoints(item.id, 1)}
-              rankDown={() => this.handlePoints(item.id, -1)}
-            />
-          ))}
         */
+
     }
 
     render(){
@@ -139,4 +110,36 @@ export default Works;
         "imagemobile": "https://www.fernandocomet.com/img/mobile/stockphoto.png",
         "category": "photographer"
       },  
+
+              //console.log(this.state.data);
+        /* 
+        I need Array Objects, for each:
+            title
+            description
+            description2
+            thanksto
+            pic
+            url
+            imagedesktop
+            imagemobile
+            category
+
+            introEnd = 
+            <ul className="collection multiple-choice">
+                  {this.state.countriesQuizz.map((item, idx) => (
+                        <button disabled={this.state.quizzing} className="neutral" onClick={this.handleChange.bind(this, idx)} key={idx}>{item}</button>
+                  ))}
+            </ul>
+
+             <div className="JokeList-jokes">
+          {jokes.map((item, idx) => (
+            <Joke
+              key={item.id}
+              item={item.joke}
+              points={item.points}
+              rankUp={() => this.handlePoints(item.id, 1)}
+              rankDown={() => this.handlePoints(item.id, -1)}
+            />
+          ))}
+        
 */

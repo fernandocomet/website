@@ -187,14 +187,15 @@ class Text extends Component{
     }
 
     initialSet(){
-        let worksArr = [];
+        
+        /*let worksArr = [];
         for (let i = 0; i < this.state.data.length ; i++){
           worksArr.push(this.state.data[i].title)
           console.log(this.state.data[i].title);
         }
         this.setState({
           works: worksArr
-        })
+        })*/
         
         //Here we go
         var tl = gsap.timeline({ repeat: -1 });
