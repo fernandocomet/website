@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 // import React, { Component, useState } from 'react';
 import './App.css';
 import Navbar from './navigation/Navbar';
+// import Main from './Main';
 import Footer from './navigation/Footer';
 import Routes from './navigation/Routes';
+
 // import { Route, NavLink, Switch } from 'react-router-dom';
 import home from "./img/navbar/white_home.svg";
 import text from "./img/navbar/white_text.svg";
@@ -12,6 +14,9 @@ import json from "./img/navbar/white_json.svg";
 import unsplash from "./img/navbar/white_unsplash.svg";
 import monster from "./img/navbar/white_monster.svg";
 import icon from "./img/navbar/white_icon.svg";
+
+// import Works from './sites/Works';
+// import{ Switch, Route, Redirect } from 'react-router-dom';
 
 
 class App extends Component{  
@@ -35,13 +40,13 @@ class App extends Component{
 
 
   render(){
-
     return (
         <div className="container">
             <div className="navbar">
               <Navbar menu={this.props.menu} />
             </div>  
               <div className="main">
+                  {/* <Main /> */}
                   <Routes menu={this.props.menu} />
               </div>
             <div className="footer">
@@ -50,7 +55,26 @@ class App extends Component{
         </div>
     );
   }
-
 }
 
 export default App;
+
+
+/*
+function App() {
+  const routeResult = useRoutes(routes);
+  return (
+    <div className="container">
+      <A href="/user">Users Page</A> <br />
+      <A href="/about">About Page</A>
+      <br />
+      <A href="/contact">Contacts Page</A>
+      {routeResult}
+    </div>
+  );
+}
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
+
+*/

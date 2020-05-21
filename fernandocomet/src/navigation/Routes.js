@@ -16,7 +16,7 @@ class Routes extends Component{
             <div>
                 {/* <h1>This is Routes</h1> */}
                 <Switch>
-                    <Route exact path='/' render={() => <Home name='home'/>} />
+                    <Route exact path='/' component={() => <Home name='home'/>} />
                     <Route exact path='/text' component={() => <Text name='text' />} />
                     <Route exact path='/works' component={() => <Works name='works' />} />
                     <Route exact path='/json' component={() => <Json name='json' />} />

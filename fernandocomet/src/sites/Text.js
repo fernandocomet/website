@@ -5,7 +5,7 @@ import { TextPlugin } from "gsap/TextPlugin";
 gsap.registerPlugin(TextPlugin);
 
 class Text extends Component{
-  _isMounted = false;
+  //_isMounted = false;
     
     static defaultProps={
         colors:[
@@ -172,7 +172,7 @@ class Text extends Component{
       }
 
     async componentDidMount(){
-      this._isMounted = true;
+      //this._isMounted = true;
       //way 1
       const response = await fetch(`https://raw.githubusercontent.com/fernandocomet/website/master/fernandocomet/src/data/portfolio.json`);
       const json = await response.json();
